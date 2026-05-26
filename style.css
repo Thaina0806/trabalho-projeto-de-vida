@@ -67,3 +67,25 @@ border-radius: 40px 40px 0 0;
 .botoes{
 display: block;
 }
+.abas-textos {
+    background-color: var(--texto-fundo);
+    pedding: 40px;
+}
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+.aba-conteudo-titulo-secundario{
+    text-align: center;
+    color: var(--verde)
+    texte-transform: uppercase;
+}
+@media screen and (min-ucidth: 768px) {
+    .botao:flex;
+}
+.botao:first-child{
+    border-radius: 40px000;
+}
+.botao:last-child{
+    border-radius: 0 40px 0;
+}
